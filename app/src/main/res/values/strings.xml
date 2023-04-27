@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ZupBank</string>
+
+    <string name="prompt_name">Nome Completo</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Senha</string>
+    <string name="prompt_repeated_password">Repetir Senha</string>
+
+    <string name="action_create_account">Criar conta</string>
+    <string name="action_sign_in">Acessar</string>
+
+    <string name="invalid_username">E-mail inválido</string>
+    <string name="invalid_password">Senha >5 caracteres</string>
+
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confirm_password">Confirmar Senha</string>
+    <string name="register">Registrar</string>
+    <string name="back_to_login">Já tenho uma conta!</string>
+    <string name="create_account">Criar Conta</string>
+
+    <string name="txt_nome_usuario">Christian</string>
+    <string name="txt_saldo">Saldo Zup \n\n R$ 953,00</string>
+    <string name="channel_name">validaçao usuario</string>
+    <string name="channel_description">channel description</string>
+</resources>

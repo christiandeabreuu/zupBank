@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Paleta colorida Zup. -->
+    <color name="blue_zup">#0c3455</color>
+    <color name="darkBlue_zup">#0e1a33</color>
+    <color name="limeGreen_zup">#8dc63f</color>
+    <color name="tealGreen_zup">#40ba8d</color>
+    <color name="red_zup">#ef4123</color>
+    <color name="orange_zup">#f7941e</color>
+    <!-- Paleta monocromatica Zup. -->
+    <color name="black_zup">#121b21</color>
+    <color name="darkGray_zup">#333333</color>
+    <color name="mediumGray_zup">#636466</color>
+    <color name="gray_zup">#939598</color>
+    <color name="lightGray_zup">#e6e7e8</color>
+    <color name="white_zup">#f1f2f2</color>
+</resources>

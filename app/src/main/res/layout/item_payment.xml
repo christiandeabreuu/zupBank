@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="25dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="0dp"
+    android:background="@color/white_zup">
+
+    <View
+        android:id="@+id/containerCircle"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:background="@drawable/container_circle_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="@id/containerCircle"
+        app:layout_constraintTop_toTopOf="@id/containerCircle" />
+
+    <TextView
+        android:id="@+id/txtPayment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Área do Pix"
+        android:textColor="@color/black_zup"
+        android:textSize="15sp"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/containerCircle"
+        app:layout_constraintStart_toStartOf="@id/containerCircle"
+        app:layout_constraintBottom_toBottomOf="@id/containerCircle"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_zup"
+    tools:context=".core.AuthActivity">
+
+    <TextView
+        android:id="@+id/etNomeDaTela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tela de autenticaçao "
+        android:inputType="number"
+        android:textColor="@color/white_zup"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/etAuth1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etAuth1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="*"
+        android:maxLength="1"
+        android:textColor="@color/white_zup"
+        android:textColorHint="@color/white_zup"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@id/etAuth2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeDaTela"
+        app:layout_constraintBottom_toTopOf="@id/btnValidation"/>
+
+    <EditText
+        android:id="@+id/etAuth2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="*"
+        android:maxLength="1"
+        android:textColor="@color/white_zup"
+        android:textColorHint="@color/white_zup"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/etAuth3"
+        app:layout_constraintStart_toEndOf="@+id/etAuth1"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeDaTela"
+        app:layout_constraintBottom_toTopOf="@id/btnValidation"/>
+
+    <EditText
+        android:id="@+id/etAuth3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="*"
+        android:maxLength="1"
+        android:textColor="@color/white_zup"
+        android:textColorHint="@color/white_zup"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@id/etAuth4"
+        app:layout_constraintStart_toEndOf="@+id/etAuth2"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeDaTela"
+        app:layout_constraintBottom_toTopOf="@id/btnValidation"/>
+
+    <EditText
+        android:id="@+id/etAuth4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="*"
+        android:maxLength="1"
+        android:textColor="@color/white_zup"
+        android:textColorHint="@color/white_zup"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/etAuth3"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeDaTela"
+        app:layout_constraintBottom_toTopOf="@id/btnValidation"/>
+
+    <Button
+        android:id="@+id/btnValidation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="48dp"
+        android:backgroundTint="@color/gray_zup"
+        android:text="Validar Usuario"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white_zup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etNomeDaTela"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
